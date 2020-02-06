@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "王的博客"
+theme = "maupassant"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "books"
+    name = "新书"
+    url = "/books/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
